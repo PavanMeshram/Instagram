@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
                     //selectedFragment = SearchFragment()
                 }
                 R.id.nav_add_post -> {
-                    //item.isChecked = false
-                    //startActivity(Intent(this, AddPostActivity::class.java))
+                    item.isChecked = false
+                    startActivity(Intent(this@MainActivity, AddPostActivity::class.java))
                     //textView.setText("Add Post")
                     return@OnNavigationItemSelectedListener true
                 }
